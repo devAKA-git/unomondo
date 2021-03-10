@@ -1,0 +1,110 @@
+# Translation of Plugins - OMGF | Host Google Fonts Locally - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - OMGF | Host Google Fonts Locally - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-09 20:25:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - OMGF | Host Google Fonts Locally - Stable (latest release)\n"
+
+#: includes/admin/class-settings.php:139
+msgid "Save & Optimize"
+msgstr "Enregistrer & optimiser"
+
+#: includes/admin/settings/class-detection.php:24
+msgid "Google Fonts Detection Settings"
+msgstr "Réglages de détection des polices Google"
+
+#: includes/admin/settings/class-optimize.php:279
+msgid "No maintenance."
+msgstr "Aucune maintenance."
+
+#: includes/admin/settings/class-optimize.php:251
+msgid "URL to Scan"
+msgstr "URL à analyser"
+
+#: includes/admin/settings/class-optimize.php:241
+#: includes/admin/settings/class-optimize.php:284
+msgid "Cons"
+msgstr "Contre"
+
+#: includes/admin/settings/class-optimize.php:233
+#: includes/admin/settings/class-optimize.php:276
+msgid "Pros:"
+msgstr "Pour :"
+
+#: includes/admin/settings/class-optimize.php:157
+msgid "Do not load"
+msgstr "Ne pas charger"
+
+#: includes/admin/settings/class-optimize.php:156
+msgid "Preload"
+msgstr "Précharger"
+
+#: includes/admin/settings/class-optimize.php:155
+msgid "Weight"
+msgstr "Graisse"
+
+#: includes/admin/settings/class-optimize.php:154
+msgid "Style"
+msgstr "Style"
+
+#: includes/admin/settings/class-optimize.php:128
+msgid "Are you ready to Optimize your Google Fonts?"
+msgstr "Êtes-vous prêt à optimiser vos polices Google ?"
+
+#: includes/admin/settings/class-optimize.php:64
+msgid "Optimization Mode"
+msgstr "Mode d’optimisation"
+
+#: includes/admin/settings/class-optimize.php:30
+msgid "Optimize Google Fonts"
+msgstr "Optimiser les polices Google"
+
+#: includes/admin/class-settings.php:261
+msgid "Detection Settings"
+msgstr "Réglages de détection"
+
+#: includes/admin/class-settings.php:254
+msgid "Optimize Fonts"
+msgstr "Optimiser les polices"
+
+#: includes/class-optimize.php:108
+msgid "Optimization completed successfully."
+msgstr "Optimisation bien terminée."
+
+#: includes/class-optimize.php:122
+msgid "OMGF encountered an error while downloading Google Fonts"
+msgstr "OMGF a rencontré une erreur lors du téléchargement des polices Google"
+
+#: includes/class-optimize.php:129
+msgid "OMGF encountered an error while fetching this site's frontend HTML"
+msgstr "OMGF a rencontré une erreur en récupérant le code HTML de ce site"
+
+#: includes/class-ajax.php:53
+msgid "OMGF encountered an error while emptying the cache directory: "
+msgstr "OMGF a rencontré une erreur en vidant le répertoire de cache : "
+
+#: includes/admin/class-settings.php:349
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/admin/class-settings.php:179
+msgid "OMGF | Optimize My Google Fonts"
+msgstr "OMGF | Optimize My Google Fonts"
+
+#. Plugin URI of the plugin
+msgid "https://daan.dev/wordpress-plugins/host-google-fonts-locally"
+msgstr "https://daan.dev/wordpress-plugins/host-google-fonts-locally"
+
+#. Plugin Name of the plugin
+msgid "OMGF"
+msgstr "OMGF"
+
+#: includes/admin/class-settings.php:175
+msgid "You're not cool enough to access this page."
+msgstr "Vous n’êtes pas autorisé à accéder à cette page."

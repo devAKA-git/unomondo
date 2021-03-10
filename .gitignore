@@ -1,23 +1,31 @@
 # ignore everything in the root except the "wp-content" directory.
-!wp-content/
+!app/public/wp-content/
 
 # ignore everything in the "wp-content" directory, except:
 # "mu-plugins", "plugins", "themes" directory
-wp-content/*
+app/public/wp-content/cache/*
+app/public/wp-content/updraft/*
+app/public/wp-content/upgrade/*
+app/public/wp-content/uploads/wpdm-cache/*
+app/public/wp-content/wflogs/*
+app/public/wp-content/uploads/backup-guard/*
+app/public/wp-content/plugins/*
 !wp-content/mu-plugins/
 !wp-content/plugins/
 !wp-content/themes/
 
+# ignore old uploaded files
+app/public/wp-content/uploads/2014/*
+app/public/wp-content/uploads/2019/*
+app/public/wp-content/uploads/2020/*
+app/public/wp-content/uploads/2021/02/*
+app/public/wp-content/uploads/revslider/templates/*
+
 # ignore these plugins
-wp-content/plugins/hello.php
+app/public/wp-content/plugins/hello.php
 
 # ignore specific themes
-wp-content/themes/twenty*/
-
-# ignore node dependency directories
-node_modules/
+app/public/wp-content/themes/twenty*/
 
 # ignore log files and databases
 *.log
-*.sql
-*.sqlite
