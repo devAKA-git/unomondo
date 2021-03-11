@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Polylang - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-12-08 12:11:10+0000\n"
+"PO-Revision-Date: 2021-03-08 14:52:14+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -119,7 +119,7 @@ msgstr "Il y a une erreur avec une clé de licence."
 msgid "Please enter your license key:"
 msgid_plural "Please enter your license keys:"
 msgstr[0] "Veuillez saisir votre clé de licence :"
-msgstr[1] "Veuillez saisir vos clés de licence :"
+msgstr[1] "Veuillez saisir vos clés de licence :"
 
 #: modules/wizard/view-wizard-step-licenses.php:18
 msgid "You are using plugins which require a license key."
@@ -173,7 +173,7 @@ msgstr "Polylang Business Pack"
 #. translators: %s is the name of Polylang Business Pack product
 #: modules/wizard/view-wizard-step-last.php:90
 msgid "We have noticed that you are using Polylang with WooCommerce. To ensure a better compatibility, we recommend you use %s which includes both Polylang Pro and Polylang For WooCommerce."
-msgstr "Nous avons remarqué que vous utilisez Polylang avec WooCommerce. Pour assurer une meilleure compatibilité, nous vous recommandons d'utiliser %s qui comprend à la fois Polylang Pro et Polylang For WooCommerce."
+msgstr "Nous avons remarqué que vous utilisez Polylang avec WooCommerce. Pour assurer une meilleure compatibilité, nous vous recommandons d’utiliser %s qui comprend à la fois Polylang Pro et Polylang For WooCommerce."
 
 #: modules/wizard/view-wizard-step-last.php:85
 msgid "Purchase Polylang Business Pack"
@@ -190,7 +190,7 @@ msgstr "Acheter maintenant"
 
 #: modules/wizard/view-wizard-step-last.php:69
 msgid "Thank you for activating Polylang. If you want more advanced features - duplication, synchronization, REST API support, integration with other plugins, etc. - or further help provided by our Premium support, we recommend you upgrade to Polylang Pro."
-msgstr "Merci d’avoir activé Polylang. Si vous souhaitez des fonctionnalités plus avancées - duplication, synchronisation, prise en charge de l’API REST, intégration avec d'autres extensions... - ou une aide supplémentaire fournie par notre support Premium, nous vous recommandons d’acheter Polylang Pro."
+msgstr "Merci d’avoir activé Polylang. Si vous souhaitez des fonctionnalités plus avancées - duplication, synchronisation, prise en charge de l’API REST, intégration avec d’autres extensions... - ou une aide supplémentaire fournie par notre support Premium, nous vous recommandons d’acheter Polylang Pro."
 
 #: modules/wizard/view-wizard-step-last.php:67
 msgid "Upgrade to Polylang Pro"
@@ -273,68 +273,68 @@ msgstr "Sa langue est : %s."
 msgid "You defined this page as your static homepage: %s."
 msgstr "Vous avez défini cette page comme votre page d’accueil statique : %s."
 
-#: modules/wizard/wizard.php:767
+#: modules/wizard/wizard.php:829
 msgid "Ready!"
 msgstr "Prêt !"
 
-#: modules/wizard/wizard.php:678 modules/wizard/wizard.php:709
+#: modules/wizard/wizard.php:734 modules/wizard/wizard.php:769
 #: modules/wizard/view-wizard-step-home-page.php:33
 msgid "Homepage"
 msgstr "Page d’accueil"
 
-#: modules/wizard/wizard.php:615
+#: modules/wizard/wizard.php:666
 msgid "Content"
 msgstr "Contenu"
 
-#: modules/wizard/wizard.php:452
+#: modules/wizard/wizard.php:492
 msgid "Remove this language"
 msgstr "Retirer cette langue"
 
-#: modules/wizard/wizard.php:451
+#: modules/wizard/wizard.php:491
 #: modules/wizard/view-wizard-step-languages.php:136
 msgid "Ignore"
 msgstr "Ignorer"
 
-#: modules/wizard/wizard.php:450
+#: modules/wizard/wizard.php:490
 #: modules/wizard/view-wizard-step-languages.php:127
 msgid "No"
 msgstr "Non"
 
-#: modules/wizard/wizard.php:449
+#: modules/wizard/wizard.php:489
 #: modules/wizard/view-wizard-step-languages.php:118
 msgid "Yes"
 msgstr "Oui"
 
-#: modules/wizard/wizard.php:448
+#: modules/wizard/wizard.php:488
 msgid "A language wasn't added."
 msgstr "Une langue n’a pas été ajoutée."
 
-#: modules/wizard/wizard.php:441
+#: modules/wizard/wizard.php:481
 msgid "You selected a language, however, to be able to continue, you need to add it."
 msgstr "Vous avez sélectionné une langue, cependant, pour pouvoir continuer, vous devez l’ajouter."
 
-#: modules/wizard/wizard.php:440
+#: modules/wizard/wizard.php:480
 msgid "You need to add at least one language."
 msgstr "Vous devez ajouter au moins une langue."
 
-#: modules/wizard/wizard.php:439
+#: modules/wizard/wizard.php:479
 msgid "You already added this language."
 msgstr "Vous avez déjà ajouté cette langue."
 
-#: modules/wizard/wizard.php:438
+#: modules/wizard/wizard.php:478
 msgid "You need to select a language to be added."
 msgstr "Vous devez sélectionner une langue à ajouter."
 
-#: modules/wizard/wizard.php:345
+#: modules/wizard/wizard.php:375
 #: modules/wizard/view-wizard-step-licenses.php:21
 msgid "Licenses"
 msgstr "Licences"
 
-#: modules/wizard/wizard.php:179
+#: modules/wizard/wizard.php:195
 msgid "Sorry, you are not allowed to manage options for this site."
 msgstr "Désolé, vous n’avez pas l’autorisation de gérer les options de ce site."
 
-#: modules/wizard/wizard.php:125
+#: modules/wizard/wizard.php:137
 msgid "Setup"
 msgstr "Configurer"
 
@@ -354,22 +354,22 @@ msgstr "Pour que votre site fonctionne correctement, vous devez assigner une lan
 msgid "Content without language"
 msgstr "Contenu sans langue"
 
-#: include/license.php:230
+#: include/license.php:286
 msgid "Your license key has been disabled."
 msgstr "Votre clé de licence a été désactivée."
 
-#: admin/admin-filters.php:209
+#: admin/admin-filters.php:122
 msgid "Privacy Policy Page"
 msgstr "Page de politique de confidentialité"
 
 #. translators: 1: Plugin name 2: Current WordPress version 3: Required
 #. WordPress version
-#: install/install.php:68
+#: install/install.php:74
 msgid "%1$s has deactivated itself because you are using an old version of WordPress. You are using using WordPress %2$s. %1$s requires at least WordPress %3$s."
 msgstr "%1$s s’est désactivé lui-même car vous utilisez une ancienne version de WordPress. Vous utilisez WordPress %2$s. %1$s nécessite au moins WordPress %3$s."
 
 #. translators: 1: Plugin name 2: Current PHP version 3: Required PHP version
-#: install/install.php:46
+#: install/install.php:50
 msgid "%1$s has deactivated itself because you are using an old version of PHP. You are using using PHP %2$s. %1$s requires PHP %3$s."
 msgstr "%1$s s’est désactivé lui-même car vous utilisez une ancienne version de PHP. Vous utilisez PHP %2$s. %1$s nécessite PHP %3$s."
 
@@ -382,51 +382,51 @@ msgid "North Macedonia"
 msgstr "Macédoine du Nord"
 
 #. translators: %1$s is a date, %2$s is link start tag, %3$s is link end tag.
-#: include/license.php:278
+#: include/license.php:334
 msgid "Your license key will expire soon! Precisely, it will expire on %1$s. %2$sRenew your license key today!%3$s."
-msgstr "Votre clé de licence expire bientôt ! Elle expire le %1$s. %2$sRenouvelez votre clé de licence aujourd’hui !%3$s."
+msgstr "Votre clé de licence expire bientôt ! Elle expire le %1$s. %2$sRenouvelez votre clé de licence aujourd’hui ! %3$s."
 
-#: settings/settings-module.php:311
+#: settings/settings-module.php:317
 msgid "To enable this feature, you need Polylang Pro."
 msgstr "Pour activer cette fonctionnalité, vous avez besoin de Polylang Pro."
 
-#: admin/admin-classic-editor.php:319
+#: admin/admin-classic-editor.php:359
 msgid "If you attempt to modify them anyway, your changes will not be saved."
 msgstr "Si vous tentez de les modifier malgré tout, vos modifications ne seront pas enregistrées."
 
-#: admin/admin-classic-editor.php:317
+#: admin/admin-classic-editor.php:357
 msgid "Some taxonomies or metadata may be synchronized with existing translations that you are not allowed to modify."
 msgstr "Certaines taxonomies ou métadonnées doivent être synchronisées avec des traductions existantes que vous n’avez pas l’autorisation de modifier."
 
 #. translators: %s is a comma separated list of native language names
-#: admin/admin-static-pages.php:244
+#: admin/admin-static-pages.php:190
 msgid "You must translate your static front page in %s."
 msgstr "Vous devez traduire votre page d’accueil en %s."
 
 #. translators: %1$s is link start tag, %2$s is link end tag.
-#: admin/admin-notices.php:233
+#: admin/admin-notices.php:261
 msgid "We have noticed that you have been using Polylang for some time. We hope you love it, and we would really appreciate it if you would %1$sgive us a 5 stars rating%2$s."
 msgstr "Nous avons remarqué que vous utilisez Polylang depuis un certain temps. Nous espérons que vous l’aimez ! Nous serions ravis si vous pouviez %1$snous donner une note de 5 étoiles%2$s."
 
 #. translators: %1$s is link start tag, %2$s is link end tag.
-#: admin/admin-notices.php:210
+#: admin/admin-notices.php:236
 msgid "We have noticed that you are using Polylang with WooCommerce. To ensure compatibility, we recommend you use %1$sPolylang for WooCommerce%2$s."
 msgstr "Nous avons remarqué que vous utilisez Polylang avec WooCommerce. Pour assurer la compatibilité, nous vous recommandons d’utiliser %1$sPolylang for WooCommerce%2$s."
 
 #. translators: %1$s and %2$s are Polylang version numbers
-#: install/upgrade.php:82
+#: install/upgrade.php:91
 msgid "Before upgrading to %2$s, please upgrade to %1$s."
 msgstr "Veuillez d’abord mettre à niveau vers %1$s avant de mettre à niveau vers %2$s."
 
-#: modules/lingotek/lingotek.php:131
+#: modules/lingotek/lingotek.php:135
 msgid "When you activate your account, Lingotek will be able to get an accurate count of the number of words in your site. Then tell them which languages you wish to have them translated into."
 msgstr "Activez votre compte pour que Lingotek obtienne le nombre exact de mots sur votre site ainsi que les langues dans lesquelles vous souhaitez traduire."
 
-#: modules/lingotek/lingotek.php:128
+#: modules/lingotek/lingotek.php:132
 msgid "Do you need professional translations for your site?"
 msgstr "Avez-vous besoin de professionnels pour traduire votre site ?"
 
-#: modules/lingotek/lingotek.php:107
+#: modules/lingotek/lingotek.php:111
 msgid "If you're on a tight budget, looking for near-instant results, and are okay with less-than-perfect quality, machine translation is an excellent option."
 msgstr "La machine de traduction est une excellente option si vous avez un budget serré, êtes à la recherche de résultats quasi immédiats et ok avec une qualité un peu moins que parfaite."
 
@@ -435,22 +435,22 @@ msgid "WP SYNTEX"
 msgstr "WP SYNTEX"
 
 #. translators: accessibility text
-#: settings/settings.php:328 modules/wizard/wizard.php:342
-#: modules/wizard/wizard.php:432 modules/wizard/wizard.php:612
-#: admin/admin-notices.php:193
+#: settings/settings.php:334 modules/wizard/wizard.php:371
+#: modules/wizard/wizard.php:472 modules/wizard/wizard.php:663
+#: admin/admin-notices.php:217
 msgid "Dismiss this notice."
 msgstr "Ignorer cette notification."
 
-#: include/filters.php:373
+#: include/filters.php:401
 msgid "User"
 msgstr "Compte"
 
 #. translators: %s is a language native name
-#: include/filters.php:364
+#: include/filters.php:392
 msgid "User description - %s"
 msgstr "Description du compte - %s"
 
-#: include/filters.php:340
+#: include/filters.php:368
 msgid "Translated user descriptions"
 msgstr "Descriptions du compte traduites"
 
@@ -468,42 +468,42 @@ msgstr "https://polylang.pro"
 msgid "Support and extra features are available to %1$sPolylang Pro%2$s users."
 msgstr "Le support et des fonctionnalités supplémentaires sont disponibles pour les utilisateurs et utilisatrices de %1$sPolylang Pro%2$s."
 
-#: settings/settings-module.php:313
+#: settings/settings-module.php:319
 msgid "Upgrade now."
 msgstr "Mettre à niveau maintenant."
 
 #. translators: %s is a date
-#: include/license.php:286
+#: include/license.php:342
 msgid "Your license key expires on %s."
 msgstr "Votre clé de licence expire le %s."
 
-#: include/license.php:273
+#: include/license.php:329
 msgid "The license key never expires."
 msgstr "La clé de licence n’expire jamais."
 
 #. translators: %1$s is link start tag, %2$s is link end tag
-#: include/license.php:261
+#: include/license.php:317
 msgid "Your license key has reached its activation limit. %1$sView possible upgrades%2$s now."
 msgstr "Votre clé de licence à atteint sa limite d’activation. %1$sVoir les différentes possibilités de mise à niveau%2$s maintenant."
 
 #. translators: %s is a product name
-#: include/license.php:255
+#: include/license.php:311
 msgid "This is not a %s license key."
 msgstr "Ce n’est pas une clé de licence pour %s."
 
 #. translators: %1$s is a product name, %2$s is link start tag, %3$s is link
 #. end tag.
-#: include/license.php:246
+#: include/license.php:302
 msgid "Your %1$s license key is not active for this URL. Please %2$svisit your account page%3$s to manage your license key URLs."
 msgstr "Votre licence pour %1$s n’est pas activée pour cette URL. Veuillez %2$svous rendre sur la page de votre compte%3$s pour gérer les URL de votre clé de licence."
 
 #. translators: %1$s is link start tag, %2$s is link end tag.
-#: include/license.php:236
+#: include/license.php:292
 msgid "Invalid license. Please %1$svisit your account page%2$s and verify it."
 msgstr "Licence non valide. Veuillez %1$svous rendre sur la page de votre compte%2$s et la vérifier."
 
 #. translators: %1$s is a date, %2$s is link start tag, %3$s is link end tag.
-#: include/license.php:221
+#: include/license.php:277
 msgid "Your license key expired on %1$s. Please %2$srenew your license key%3$s."
 msgstr "Votre clé de licence a expiré le %1$s. Veuillez %2$sla renouveler%3$s."
 
@@ -566,88 +566,89 @@ msgid "Choose a flag for the language."
 msgstr "Choisir un drapeau pour la langue."
 
 #. translators: accessibility text
-#: settings/table-string.php:316
+#: settings/table-string.php:345
 msgid "Filter by group"
 msgstr "Filtrer par groupe"
 
 #. translators:  accessibility text, %s is a string potentially in any language
-#: settings/table-string.php:76
+#: settings/table-string.php:102
 msgid "Select %s"
 msgstr "Sélectionner une %s"
 
-#: settings/table-settings.php:147
+#: settings/table-settings.php:149
 msgid "Description"
 msgstr "Description"
 
-#: settings/table-settings.php:146
+#: settings/table-settings.php:148
 msgid "Module"
 msgstr "Module"
 
-#: settings/settings-module.php:142
+#: settings/settings-module.php:140
 msgid "Save Changes"
 msgstr "Enregistrer les modifications"
 
-#: settings/settings-module.php:141
+#: settings/settings-module.php:139 js/lib/confirmation-modal.js:80
+#: js/build/classic-editor.js:83 js/build/block-editor.js:83
 msgid "Cancel"
 msgstr "Annuler"
 
-#: settings/table-languages.php:210
+#: settings/table-languages.php:211
 msgid "Delete this language and all its associated data"
 msgstr "Supprimer cette langue et toutes les données qui lui sont associées"
 
 #. translators: accessibility text, %s is a native language name
-#: settings/table-languages.php:116
+#: settings/table-languages.php:117
 msgid "Choose %s as default language"
 msgstr "Choisir %s comme langue par défaut"
 
-#: settings/table-languages.php:113
+#: settings/table-languages.php:114
 msgid "Select as default language"
 msgstr "Sélectionner comme langue par défaut"
 
-#: settings/table-languages.php:90 settings/table-languages.php:204
+#: settings/table-languages.php:91 settings/table-languages.php:205
 msgid "Edit this language"
 msgstr "Modifier cette langue"
 
-#: settings/settings.php:344
+#: settings/settings.php:352
 msgid "You can set them all to the default language."
 msgstr "Vous pouvez leur attribuer la langue par défaut."
 
-#: settings/settings.php:342
+#: settings/settings.php:350
 #: modules/wizard/view-wizard-step-untranslated-contents.php:19
 msgid "There are posts, pages, categories or tags without language."
-msgstr "Il y a des articles, pages, catégories ou étiquettes sans jeu de langue. "
+msgstr "Il y a des articles, pages, catégories ou étiquettes sans jeu de langue."
 
 #. translators: %s is an url
-#: settings/settings-url.php:306
+#: settings/settings-url.php:324
 msgid "Polylang was unable to access the %s URL. Please check that the URL is valid."
 msgstr "Polylang n’a pas pu accéder à l’URL %s. Veuillez vérifier que cette URL est valide."
 
 #. translators: %s is a native language name
-#: settings/settings-url.php:251
+#: settings/settings-url.php:268
 msgid "Please enter a valid URL for %s."
 msgstr "Veuillez saisir une URL valide pour %s."
 
-#: settings/settings-url.php:32
+#: settings/settings-url.php:39
 msgid "Decide how your URLs will look like."
 msgstr "Déterminez l’apparence de vos URL."
 
-#: settings/settings-module.php:137
+#: settings/settings-module.php:135
 msgid "Deactivated"
 msgstr "Désactivé"
 
-#: settings/settings-module.php:132
+#: settings/settings-module.php:130
 msgid "Activate this module"
 msgstr "Activer ce module"
 
-#: settings/settings-module.php:128 include/license.php:270
+#: settings/settings-module.php:126 include/license.php:326
 msgid "Deactivate"
 msgstr "Désactiver"
 
-#: settings/settings-module.php:126
+#: settings/settings-module.php:124
 msgid "Deactivate this module"
 msgstr "Désactiver ce module"
 
-#: settings/settings-module.php:120
+#: settings/settings-module.php:118
 msgid "Configure this module"
 msgstr "Configurer ce module"
 
@@ -1664,11 +1665,11 @@ msgstr "Page des articles"
 msgid "Front Page"
 msgstr "Page d’accueil"
 
-#: admin/admin-nav-menu.php:78
+#: admin/admin-nav-menu.php:82
 msgid "Add to Menu"
 msgstr "Ajouter au menu"
 
-#: modules/wizard/wizard.php:447 admin/admin-model.php:305
+#: modules/wizard/wizard.php:487 admin/admin-model.php:300
 msgid "The flag does not exist"
 msgstr "Le drapeau n’existe pas"
 
@@ -1678,18 +1679,18 @@ msgid "Add a translation in %s"
 msgstr "Ajouter une traduction en %s"
 
 #. translators: accessibility text, %s is a native language name
-#: admin/admin-filters-columns.php:171 admin/admin-filters-columns.php:301
+#: admin/admin-filters-columns.php:196 admin/admin-filters-columns.php:331
 msgid "This item is in %s"
 msgstr "Cet élément est en %s"
 
 #. translators: accessibility text, %s is a native language name
-#: admin/admin-filters-columns.php:157 admin/admin-filters-columns.php:287
+#: admin/admin-filters-columns.php:177 admin/admin-filters-columns.php:317
 #: admin/admin-links.php:54
 msgid "Edit the translation in %s"
 msgstr "Modifier cette traduction en %s"
 
 #. translators: accessibility text, %s is a native language name
-#: admin/admin-filters-columns.php:153 admin/admin-filters-columns.php:283
+#: admin/admin-filters-columns.php:173 admin/admin-filters-columns.php:313
 msgid "Edit this item in %s"
 msgstr "Modifier cet élément en %s"
 
@@ -1701,111 +1702,111 @@ msgstr "Ajoute la gestion multilingue à WordPress"
 msgid "Polylang"
 msgstr "Polylang"
 
-#: modules/lingotek/lingotek.php:266
+#: modules/lingotek/lingotek.php:273
 msgid "Learn more..."
 msgstr "En savoir plus…"
 
-#: modules/lingotek/lingotek.php:146
+#: modules/lingotek/lingotek.php:150
 msgid "Do you need help creating glossaries and terminologies?"
 msgstr "Avez-vous besoin d’aide pour créer des glossaires et des terminologies ?"
 
-#: modules/lingotek/lingotek.php:145
+#: modules/lingotek/lingotek.php:149
 msgid "Do you have existing Translation Memories you would like to use?"
 msgstr "Avez-vous déjà des Mémoires de Traduction que vous aimeriez réutiliser ?"
 
-#: modules/lingotek/lingotek.php:144
+#: modules/lingotek/lingotek.php:148
 msgid "Do you need customized workflows?"
 msgstr "Avez-vous besoin de workflows personnalisés ?"
 
-#: modules/lingotek/lingotek.php:143
+#: modules/lingotek/lingotek.php:147
 msgid "Do you need someone to run your localization project?"
 msgstr "Avez-vous besoin de quelqu’un pour gérer votre projet de localisation ?"
 
-#: modules/lingotek/lingotek.php:142
+#: modules/lingotek/lingotek.php:146
 msgid "Start the process of getting extra services."
 msgstr "Démarrer le processus pour obtenir des services supplémentaires."
 
-#: modules/lingotek/lingotek.php:140
+#: modules/lingotek/lingotek.php:144
 msgid "Do you need help translating your site?"
 msgstr "Avez-vous besoin d’aide pour faire traduire votre site ?"
 
-#: modules/lingotek/lingotek.php:139
+#: modules/lingotek/lingotek.php:143
 msgid "Need extra services?"
 msgstr "Besoin de services supplémentaires ?"
 
-#: modules/lingotek/lingotek.php:132
+#: modules/lingotek/lingotek.php:136
 msgid "Once activated, click on the \"request translation bid\" and a certified translation project manager will contact you for a no-obligations translation bid."
 msgstr "Une fois votre compte activé, cliquez sur « Demande de traduction » et un chef de projet certifié vous contactera pour vous faire une offre de traduction sans obligation d’achat."
 
-#: modules/lingotek/lingotek.php:130
+#: modules/lingotek/lingotek.php:134
 msgid "Start the process of getting a professional translation bid."
 msgstr "Démarrer le processus pour obtenir une offre de traduction professionnelle."
 
-#: modules/lingotek/lingotek.php:127
+#: modules/lingotek/lingotek.php:131
 msgid "Professionally translate my site"
 msgstr "Traduire professionnellement mon site"
 
-#: modules/lingotek/lingotek.php:120
+#: modules/lingotek/lingotek.php:124
 msgid "Save and re-use previously translated material (leverage translation memory (TM))."
 msgstr "Sauvez et réutilisez des traductions faites précédemment (mémoire de traduction)."
 
-#: modules/lingotek/lingotek.php:119
+#: modules/lingotek/lingotek.php:123
 msgid "Have linguists compare side-by-side versions of original and translated text."
 msgstr "Faites comparer les versions originale et traduite du texte par des linguistes."
 
-#: modules/lingotek/lingotek.php:118
+#: modules/lingotek/lingotek.php:122
 msgid "Access an online translator workbench."
 msgstr "Accédez à notre workbench de traducteurs en ligne."
 
-#: modules/lingotek/lingotek.php:115
+#: modules/lingotek/lingotek.php:119
 msgid "Do you need to connect to a professional translation management system?"
 msgstr "Vous avez besoin d’être connecté avec un système de gestion professionnel de traduction ?"
 
-#: modules/lingotek/lingotek.php:114
+#: modules/lingotek/lingotek.php:118
 msgid "Translation Management System"
 msgstr "Système de gestion de traduction"
 
-#: modules/lingotek/lingotek.php:106 modules/lingotek/lingotek.php:117
+#: modules/lingotek/lingotek.php:110 modules/lingotek/lingotek.php:121
 msgid "Access free machine translation for your site for up to 100,000 characters."
 msgstr "Accéder gratuitement à la machine de traduction automatique pour votre site jusqu’à 100 000 caractères."
 
-#: modules/lingotek/lingotek.php:104
+#: modules/lingotek/lingotek.php:108
 msgid "Polylang is now fully integrated with Lingotek!"
 msgstr "Polylang est maintenant entièrement compatible avec Lingotek !"
 
-#: modules/lingotek/lingotek.php:103
+#: modules/lingotek/lingotek.php:107
 msgid "Automatically translate my site"
 msgstr "Traduire automatiquement mon site"
 
-#: modules/lingotek/lingotek.php:100
+#: modules/lingotek/lingotek.php:104
 msgid "Polylang is now fully integrated with Lingotek, a professional translation management system!"
 msgstr "Polylang est maintenant entièrement compatible avec Lingotek, un système professionnel de gestion de traduction."
 
-#: modules/lingotek/lingotek.php:93
+#: modules/lingotek/lingotek.php:97
 msgid "Request Services"
 msgstr "Demande de services"
 
-#: modules/lingotek/lingotek.php:87
+#: modules/lingotek/lingotek.php:91
 msgid "Request Translation"
 msgstr "Demande de traduction"
 
-#: settings/settings-module.php:134 modules/lingotek/lingotek.php:82
+#: settings/settings-module.php:132 modules/lingotek/lingotek.php:86
 msgid "Activate"
 msgstr "Activer"
 
-#: settings/settings-module.php:136 modules/lingotek/lingotek.php:82
+#: settings/settings-module.php:134 modules/lingotek/lingotek.php:86
 msgid "Activated"
 msgstr "Activé"
 
-#: modules/lingotek/lingotek.php:45
+#: modules/lingotek/lingotek.php:47
 msgid "Activate Lingotek"
 msgstr "Activer Lingotek"
 
-#: modules/lingotek/lingotek.php:40
+#: modules/lingotek/lingotek.php:42
 msgid "Click on Activate Lingotek to start translating."
 msgstr "Cliquez sur « Activer Lingotek » pour lancer la traduction."
 
-#: modules/lingotek/lingotek.php:36
+#: modules/lingotek/lingotek.php:38
 msgid "Learn more"
 msgstr "En savoir plus"
 
@@ -1813,15 +1814,15 @@ msgstr "En savoir plus"
 msgid "Close"
 msgstr "Fermer"
 
-#: modules/lingotek/lingotek.php:31
+#: modules/lingotek/lingotek.php:33
 msgid "You’ve just upgraded to the latest version of Polylang! Would you like to automatically translate your website for free?"
 msgstr "Vous venez juste de mettre à jour Polylang dans sa dernière version ! Voulez-vous traduire automatiquement et gratuitement votre site ?"
 
-#: install/upgrade.php:79
+#: install/upgrade.php:88
 msgid "Polylang has been deactivated because you upgraded from a too old version."
 msgstr "Polylang a été désactivé parce que vous avez fait une mise à jour depuis une version trop ancienne."
 
-#: include/widget-languages.php:116
+#: include/widget-languages.php:118
 msgid "Title:"
 msgstr "Titre :"
 
@@ -1835,27 +1836,27 @@ msgctxt "calendar caption"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
-#: include/switcher.php:25
+#: include/switcher.php:46
 msgid "Displays as a dropdown"
 msgstr "Afficher en liste déroulante"
 
-#: include/switcher.php:30
+#: include/switcher.php:51
 msgid "Hides languages with no translation"
 msgstr "Masquer les langues sans traduction"
 
-#: include/switcher.php:29
+#: include/switcher.php:50
 msgid "Hides the current language"
 msgstr "Masquer la langue courante"
 
-#: include/switcher.php:28
+#: include/switcher.php:49
 msgid "Forces link to front page"
 msgstr "Forcer le lien vers la page d’accueil"
 
-#: include/switcher.php:27
+#: include/switcher.php:48
 msgid "Displays flags"
 msgstr "Afficher les drapeaux"
 
-#: include/switcher.php:26
+#: include/switcher.php:47
 msgid "Displays language names"
 msgstr "Afficher le nom des langues"
 
@@ -1863,12 +1864,12 @@ msgstr "Afficher le nom des langues"
 msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
 msgstr "Importer des <strong>articles, pages, commentaires, champs personnalisés, catégories et étiquettes</strong> depuis un fichier d’exportation de WordPress."
 
-#: include/model.php:385
+#: include/model.php:414
 msgid "Uncategorized"
 msgstr "Non classé"
 
-#: frontend/frontend-filters-search.php:86
-#: frontend/frontend-filters-search.php:87
+#: frontend/frontend-filters-search.php:101
+#: frontend/frontend-filters-search.php:102
 msgid "Search"
 msgstr "Rechercher"
 
@@ -1912,7 +1913,7 @@ msgstr "Types de publication personnalisés"
 msgid "Activate languages and translations for media"
 msgstr "Activer la gestion des langues et des traductions pour les médias."
 
-#: settings/settings-media.php:31 modules/wizard/wizard.php:565
+#: settings/settings-media.php:31 modules/wizard/wizard.php:609
 #: modules/wizard/view-wizard-step-media.php:21
 msgid "Media"
 msgstr "Média"
@@ -1927,61 +1928,61 @@ msgstr "Détecter la langue du navigateur"
 
 #. translators: %1$s example url when the option is active. %2$s example url
 #. when the option is not active
-#: settings/settings-url.php:180
+#: settings/settings-url.php:194
 msgid "Example: %1$s instead of %2$s"
 msgstr "Exemple : %1$s au lieu de %2$s"
 
-#: settings/settings-url.php:169
+#: settings/settings-url.php:183
 msgid "The front page url contains the language code instead of the page name or page id"
 msgstr "L’URL de la page d’accueil contient le code de la langue au lieu du nom ou de l’ID de la page"
 
-#: settings/settings-url.php:149
+#: settings/settings-url.php:161
 msgid "Keep /language/ in pretty permalinks"
-msgstr "Conserver /language/ dans les permaliens"
+msgstr "Conserver «/language/» dans les permaliens"
 
-#: settings/settings-url.php:138
+#: settings/settings-url.php:150
 msgid "Remove /language/ in pretty permalinks"
-msgstr "Supprimer /language/ dans les permaliens"
+msgstr "Supprimer «/language/» dans les permaliens"
 
-#: settings/settings-url.php:118
+#: settings/settings-url.php:128
 msgid "Hide URL language information for default language"
 msgstr "Cacher l’information de langue dans l’URL de la langue par défaut"
 
-#: settings/settings-url.php:85
+#: settings/settings-url.php:93
 msgid "The language is set from different domains"
 msgstr "La langue est déterminée par les noms de domaines différents"
 
-#: settings/settings-url.php:74
+#: settings/settings-url.php:82
 msgid "The language is set from the subdomain name in pretty permalinks"
 msgstr "La langue est déterminée par le nom du sous-domaine dans les permaliens"
 
-#: settings/settings-url.php:67 settings/settings-url.php:78
-#: settings/settings-url.php:142 settings/settings-url.php:153
+#: settings/settings-url.php:75 settings/settings-url.php:86
+#: settings/settings-url.php:154 settings/settings-url.php:165
 msgid "Example:"
 msgstr "Exemple :"
 
-#: settings/settings-url.php:63
+#: settings/settings-url.php:71
 msgid "The language is set from the code in the URL"
 msgstr "La langue est déterminée par le code dans l’URL"
 
-#: settings/settings-url.php:63
+#: settings/settings-url.php:71
 msgid "The language is set from the directory name in pretty permalinks"
 msgstr "La langue est déterminée par le nom du répertoire dans les permaliens"
 
-#: settings/settings-url.php:57
+#: settings/settings-url.php:65
 msgid "Posts, pages, categories and tags URLs will not be modified."
 msgstr "Les URL des articles, pages, catégories et étiquettes ne seront pas modifiées."
 
-#: settings/settings-url.php:53
+#: settings/settings-url.php:61
 msgid "The language is set from content"
 msgstr "La langue est déterminée par le contenu"
 
-#: settings/settings-url.php:31
+#: settings/settings-url.php:38
 msgid "URL modifications"
 msgstr "Modifications des URL"
 
 #. translators: accessibility text
-#: settings/table-languages.php:132 settings/table-languages.php:151
+#: settings/table-languages.php:133 settings/table-languages.php:152
 #: modules/wizard/view-wizard-step-home-page.php:77
 #: modules/wizard/view-wizard-step-home-page.php:92
 #: modules/wizard/view-wizard-step-home-page.php:124
@@ -2034,7 +2035,7 @@ msgstr "Le nom est utilisé un peu partout sur le site (par exemple : Français
 msgid "You can choose a language in the list or directly edit it below."
 msgstr "Choisir une langue dans la liste ou la modifier directement ci-dessous."
 
-#: settings/view-tab-lang.php:53 include/widget-languages.php:56
+#: settings/view-tab-lang.php:53 include/widget-languages.php:57
 msgid "Choose a language"
 msgstr "Choisir une langue"
 
@@ -2053,61 +2054,61 @@ msgstr "Modifier la langue"
 msgid "Polylang is provided with an extensive %1$sdocumentation%2$s (in English). It includes information on how to set up your multilingual site and use it on a daily basis; FAQs, and documentation for developers to adapt their plugins and themes."
 msgstr "Polylang est fourni avec une %1$sdocumentation%2$s (en anglais). Elle inclut des informations sur comment paramétrer votre site multilingue et l’utiliser quotidiennement, une FAQ et une documentation pour les développeurs pour la compatibilité de leurs extensions et thèmes."
 
-#: settings/table-string.php:335
+#: settings/table-string.php:364
 msgid "Filter"
 msgstr "Filtrer"
 
-#: settings/table-string.php:322
+#: settings/table-string.php:351
 msgid "View all groups"
 msgstr "Voir tous les groupes"
 
-#: settings/table-string.php:134 admin/view-translations-term.php:14
+#: settings/table-string.php:160 admin/view-translations-term.php:14
 #: admin/view-translations-term.php:21 admin/view-translations-media.php:13
 #: admin/view-translations-post.php:12
 msgid "Translations"
 msgstr "Traductions"
 
-#: settings/table-string.php:133
+#: settings/table-string.php:159
 msgid "Group"
 msgstr "Groupe"
 
-#: settings/table-string.php:132
+#: settings/table-string.php:158
 msgid "Name"
 msgstr "Nom"
 
-#: settings/table-string.php:131
+#: settings/table-string.php:157
 msgid "String"
 msgstr "Chaîne"
 
-#: settings/table-languages.php:154
+#: settings/table-languages.php:155
 msgid "Posts"
 msgstr "Articles"
 
-#: settings/view-tab-lang.php:127 settings/table-languages.php:153
+#: settings/view-tab-lang.php:127 settings/table-languages.php:154
 msgid "Flag"
 msgstr "Drapeau"
 
-#: settings/view-tab-lang.php:147 settings/table-languages.php:152
+#: settings/view-tab-lang.php:147 settings/table-languages.php:153
 msgid "Order"
 msgstr "Ordre"
 
-#: settings/table-languages.php:150
+#: settings/table-languages.php:151
 msgid "Code"
 msgstr "Code"
 
-#: settings/view-tab-lang.php:88 settings/table-languages.php:149
+#: settings/view-tab-lang.php:88 settings/table-languages.php:150
 msgid "Locale"
 msgstr "Code local"
 
-#: settings/view-tab-lang.php:77 settings/table-languages.php:148
+#: settings/view-tab-lang.php:77 settings/table-languages.php:149
 msgid "Full name"
 msgstr "Nom"
 
-#: settings/table-languages.php:213 settings/table-string.php:285
+#: settings/table-languages.php:214 settings/table-string.php:313
 msgid "Delete"
 msgstr "Supprimer"
 
-#: settings/table-languages.php:212
+#: settings/table-languages.php:213
 msgid "You are about to permanently delete this language. Are you sure?"
 msgstr "Confirmez-vous la suppression définitive de cette langue ?"
 
@@ -2155,15 +2156,15 @@ msgstr "Champs personnalisés"
 msgid "Taxonomies"
 msgstr "Taxonomies"
 
-#: settings/settings-licenses.php:113 settings/settings-module.php:252
+#: settings/settings-licenses.php:113 settings/settings-module.php:258
 msgid "Settings saved."
 msgstr "Réglages enregistrés."
 
-#: settings/table-string.php:386
+#: settings/table-string.php:417
 msgid "Translations updated."
 msgstr "Traductions mises à jour."
 
-#: settings/settings.php:144 admin/admin-base.php:76 include/mo.php:21
+#: settings/settings.php:146 admin/admin-base.php:116 include/mo.php:21
 msgid "Strings translations"
 msgstr "Traductions des chaînes"
 
@@ -2171,115 +2172,108 @@ msgstr "Traductions des chaînes"
 msgid "About Polylang"
 msgstr "À propos de Polylang"
 
-#: settings/settings.php:191
+#: settings/settings.php:194
 msgid "The language was created, but the WordPress language file was not downloaded. Please install it manually."
 msgstr "La langue a été créée, mais le fichier de langue de WordPress n’a pas été téléchargé. Veuillez l’installer manuellement."
 
-#: admin/admin-base.php:369 admin/admin-base.php:388
+#: admin/admin-base.php:431 admin/admin-base.php:450
 msgid "Filters content by language"
 msgstr "Filtrer le contenu par langue"
 
-#: admin/admin-base.php:360
+#: admin/admin-base.php:422
 msgid "Show all languages"
 msgstr "Afficher toutes les langues"
 
-#: settings/settings-module.php:122 admin/admin-base.php:79 admin/admin.php:127
+#: settings/settings-module.php:120 admin/admin-base.php:119
+#: admin/admin.php:104
 msgid "Settings"
 msgstr "Réglages"
 
-#: admin/admin-strings.php:57
+#: admin/admin-strings.php:70
 msgid "Widget text"
 msgstr "Widget texte"
 
-#: admin/admin-strings.php:56
+#: admin/admin-strings.php:69
 msgid "Widget title"
 msgstr "Titre du widget"
 
-#: install/upgrade.php:341 admin/admin-nav-menu.php:47 include/nav-menu.php:48
+#: admin/admin-nav-menu.php:49 include/nav-menu.php:72
 #: include/widget-languages.php:21
 msgid "Language switcher"
 msgstr "Liste des langues"
 
-#: modules/wizard/wizard.php:446 admin/admin-model.php:293
+#: modules/wizard/wizard.php:486 admin/admin-model.php:288
 msgid "The language must have a name"
 msgstr "La langue doit avoir un nom"
 
-#: modules/wizard/wizard.php:445 admin/admin-model.php:286
+#: modules/wizard/wizard.php:485 admin/admin-model.php:281
 msgid "The language code must be unique"
 msgstr "Le code de la langue doit être unique"
 
-#: modules/wizard/wizard.php:444 admin/admin-model.php:280
+#: modules/wizard/wizard.php:484 admin/admin-model.php:275
 msgid "The language code contains invalid characters"
 msgstr "Le code de la langue contient des caractères non valides"
 
-#: modules/wizard/wizard.php:443 admin/admin-model.php:275
+#: modules/wizard/wizard.php:483 admin/admin-model.php:270
 msgid "Enter a valid WordPress locale"
 msgstr "Saisissez un code local WordPress valide"
 
-#: settings/settings.php:221
+#: settings/settings.php:224
 msgid "Language updated."
 msgstr "Langue mise à jour."
 
-#: settings/settings.php:206
+#: settings/settings.php:209
 msgid "Language deleted."
 msgstr "Langue supprimée."
 
-#: settings/settings.php:184
+#: settings/settings.php:187
 msgid "Language added."
 msgstr "Langue ajoutée."
 
-#: modules/wizard/wizard.php:442 admin/admin-model.php:44
+#: modules/wizard/wizard.php:482 admin/admin-model.php:41
 msgid "Impossible to add the language."
 msgstr "Impossible d’ajouter la langue."
 
-#: admin/admin-static-pages.php:157 admin/admin-static-pages.php:174
-msgid "The chosen static front page must be translated in all languages."
-msgstr "La page d’accueil statique choisie doit être traduite dans toutes les langues."
-
-#: admin/admin-filters.php:164
-msgid "Upgrading language files&#8230;"
-msgstr "Mise à jour des fichiers de langues&#8230;"
-
-#: admin/admin-filters.php:65 include/translated-post.php:112
+#: include/filters-widgets-options.php:50 include/translated-post.php:118
 msgid "All languages"
 msgstr "Toutes les langues"
 
-#: admin/admin-filters.php:79
+#: include/filters-widgets-options.php:64
 msgid "The widget is displayed for:"
 msgstr "Le widget est affiché pour :"
 
-#: admin/admin-filters-term.php:471
+#: admin/admin-filters-term.php:521
 msgid "None"
 msgstr "Aucun"
 
-#: admin/admin-filters-term.php:104 admin/admin-filters-term.php:176
+#: admin/admin-filters-term.php:147 admin/admin-filters-term.php:220
 msgid "Sets the language"
 msgstr "Définit la langue"
 
-#: settings/table-languages.php:206
+#: settings/table-languages.php:207
 msgid "Edit"
 msgstr "Modifier"
 
-#: admin/admin-classic-editor.php:214
+#: admin/admin-classic-editor.php:247
 msgid "(no parent)"
 msgstr "(pas de parent)"
 
-#: settings/settings.php:126 modules/wizard/wizard.php:458
-#: modules/wizard/view-wizard-step-languages.php:29 admin/admin-base.php:72
-#: admin/admin-base.php:96 admin/admin-nav-menu.php:68
-#: admin/admin-nav-menu.php:71 admin/admin-nav-menu.php:102
-#: admin/admin-classic-editor.php:52 admin/admin-notices.php:92
-#: include/nav-menu.php:47 include/translated-post.php:110
+#: settings/settings.php:126 modules/wizard/wizard.php:498
+#: modules/wizard/view-wizard-step-languages.php:29 admin/admin-base.php:112
+#: admin/admin-base.php:136 admin/admin-nav-menu.php:72
+#: admin/admin-nav-menu.php:75 admin/admin-nav-menu.php:108
+#: admin/admin-classic-editor.php:75 admin/admin-notices.php:110
+#: include/nav-menu.php:71 include/translated-post.php:116
 msgid "Languages"
 msgstr "Langues"
 
 #: modules/wizard/view-wizard-step-languages.php:67
-#: admin/admin-filters-media.php:59 admin/admin-filters-columns.php:209
-#: admin/admin-filters-term.php:102 admin/admin-filters-term.php:174
-#: admin/admin-classic-editor.php:102 include/translated-post.php:111
+#: admin/admin-filters-media.php:62 admin/admin-filters-columns.php:234
+#: admin/admin-filters-term.php:145 admin/admin-filters-term.php:218
+#: admin/admin-classic-editor.php:127 include/translated-post.php:117
 msgid "Language"
 msgstr "Langue"
 
-#: admin/admin-filters-columns.php:195
+#: admin/admin-filters-columns.php:220
 msgid "&mdash; No Change &mdash;"
 msgstr "&mdash; Aucun changement &mdash;"
